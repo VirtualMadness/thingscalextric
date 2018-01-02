@@ -1,0 +1,225 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    color: #5a5a5a;
+    background-color: #f0df9c;
+}
+
+h1, h2, h3
+{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 115%;
+}
+
+p, li, a
+{
+    text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a:link{
+    color: #402D3C;
+}
+a:visited {
+    color: #402D3C;
+}
+
+.featurette-divider{
+    border-top: 1px solid #7d5340
+}
+
+.featurette-heading a{
+    
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.nav-wrapper {
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  padding: 15px;
+  background-color: #402D3C;
+}
+.nav-wrapper > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.titleVirtual{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: floralwhite;
+    font-size: 20px;
+}
+
+.nav-wrapper .nav {
+  margin: auto;
+}
+.nav-wrapper .nav .container {
+  width: auto;
+}
+
+.imageButton{
+    
+    display: block;
+}
+
+.imageButton img{
+    align-content: center;
+    margin: auto;
+} 
+
+img{
+    image-rendering: "pixelated";
+}
+
+.about{
+    padding-top: 55px;
+}
+.about h1{
+    text-align: center;
+}
+
+h1.about{
+    color:black;
+    font-size: 60px;
+}
+.col-lg-3{
+    padding-top: 75px;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+  }
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #402D3C;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+/*.center {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 35%;
+  right: 0;
+  margin: auto;  
+}*/
+
+.img-circle {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a.right.carousel-control{
+    background-color:  none;
+}
+
+a.left.carousel-control{
+    background-color:  none;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: normal;
+  color:black;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+a.btn.btn-default{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #214754;
+    color: #F0F0F0;
+    width: 60%;
+}
+
+.infoVirtual{
+    font-size: 100%;
+    padding-top: 15%;
+}
+
+.infoVirtual a:hover{
+    background-color: #f0df9c;
+}
+.featurette-heading a:hover{
+    background-color: #f0df9c;
+}
+.infoVirtual li{
+    float:left;
+    list-style: square;
+    
+    /*list-style-image:url("http://www.kulturklik.euskadi.eus/images/z12-ico-twitter-pie.png");*/
+}
+.pull-left2{
+    margin-left: 10px;
+}
+
+@media (min-width: 250px){
+    
+    div.item.active{
+        height: 25%;
+    }
+    
+    #myCarousel.carousel.slide{
+        height: 25%;
+    }
+    
+    .carousel-caption h4{
+        font-size: 95%;
+    }
+    
+    ol.carousel-indicators{
+        transform: scale(0.5);
+    }    
+    
+}
